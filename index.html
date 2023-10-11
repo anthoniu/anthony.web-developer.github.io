@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anthony Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- BOTON DE MENU EN MOVIL -->
+    <button class="hamberger">
+        <img src="./images/hamberger.svg" alt="">
+    </button>
+
+    <!-- OPCIONES DEL MENU EN MOVIL -->
+    <div class="mobile-nav">
+        <button class="times"><img src="./images/times.svg" alt=""></button>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">A cerca de mi</a></li>
+            <li><a href="#">Mis habilidades</a></li>
+            <li><a href="#">Mis trabajos</a></li>
+            <li><a href="#">Visita mi blog</a></li>
+        </ul>
+    </div>
+
+    <!-- CONTENIDO DEL PORTAFOLIO -->
+    <main class="site-main-wrapper">
+
+        <!-- CABECERA -->
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Inicio</a>
+                            <a href="#about">A cerca de mi</a>
+                            <a href="#services">Mis habilidades</a>
+                            <a href="#work">Mis trabajos</a>
+                            <a href="#blog">Mi blog</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="https://api.whatsapp.com/send?phone=923063096" class="btn btn-primary">Contactame</a>
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/foto1.png" alt="">
+                    </div>
+                    <div class="right flex-1">
+                        <h6>Anthony Montoya</h6>
+                        <h1>Soy <span>Desarrollador Web</span></h1>
+                        <p>Bienvenidos a mi portafolio, esta es solo una breve presentacion de mi, mis conocimientos y 
+                            habilidades como Desarrollador Web, asi como tambien ciertos trabajos que he realizado
+                            y mi blog personal. Abajo podras descargar mi CV
+                        </p>
+                        <div>
+                            <a class="btn btn-secondary" href="images/CV ANTHONY MONTOYA.docx">DESCARGAR CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- A CERCA DE MI -->
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/foto.jpg" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>Sobre <span>Mi</span></h1>
+                    <h3>Hola! Soy Anthony Montoya,</h3>
+                    <p>Desarrollador Web, termine mis mis estudios tecnicos en el Instituto Superior Maria Elena Moyano,
+                        donde estudie durante 3 años en la carrera de Desarrollo de Sistemas de Informacion, en el cual
+                        desarrolle un afan por la creacion de paginas web, desde mi segundo ciclo me he interesado en aprender
+                        mucho mas sobre el Desarrollo Web.
+                    </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=61551890743893"><img src="./images/icons8-facebook.svg" alt=""></a>
+                        <a href="https://anthony-developer-web.blogspot.com/2023/10/bienvenidos-mi-blog.html"><img src="./images/icons8-blog.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/anthony-developer-8a7908238/"><img src="./images/icons8-linkedin.svg" alt=""></a>
+                        <a href="https://www.youtube.com/channel/UCmnb3wCP-vH0WsnfG9IFnMQ"><img src="./images/icons8-youtube-play.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MIS HABILIDADES -->
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>Mis </span>Habilidades</h1>
+                <p>Lenguajes de programacion en los que tengo conocimientos</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/icons8-html-5.svg" alt="">
+                        <h2>HTML</h2>
+                        <p></p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/icons8-css.svg" alt="">
+                        <h2>CSS</h2>
+                        <p> </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/icons8-javascript.svg" alt="">
+                        <h2>JAVASCRIPT</h2>
+                        <p></p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/icons8-nodejs.svg" alt="">
+                        <h2>NODE.JS</h2>
+                        <p> </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/icons8-wordpress.svg" alt="">
+                        <h2>WORDPRESS</h2>
+                        <p></p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/icons8-php.svg" alt="">
+                        <h2>PHP</h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DISPONIBILIDAD COMO FREELANCER -->
+        <section class="freelancer" style="background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/desarrollador-fondo.avif); background-repeat: no-repeat; background-size: cover;">
+            <h1>Disponibilidad como Freelancer.</h1>
+            <p>Proporciono un sitio web de alto nivel para sus soluciones comerciales</p>
+            <a class="btn btn-primary" href="images/CV ANTHONY MONTOYA.docx">Descargar CV</a>
+        </section>
+
+        <!-- CLIENTES Y RESUMENES -->
+        <!-- <section class="reviews">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Client</h1>
+                <p>We provide high standar clean website for your business solutions</p>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"</p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"</p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"</p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"</p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+        </section> -->
+
+        <!-- MIS TRABAJOS -->
+        <section id="work" class="work">
+            <div class="container">
+                <h1 class="section-heading"><span>Mis</span> Trabajos</h1>
+                <p>Algunos proyectos en los que he trabajado</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay">
+                            <span></span>
+                            <a href="#"></a>
+                        </div>
+                        <a href="https://iufilmsmovies.000webhostapp.com/">
+                            <img src="./images/proyecto1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span></span>
+                            <a href="#"></a>
+                        </div>
+                        <a href="https://iufilms.000webhostapp.com/">
+                            <img src="./images/proyecto2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span></span>
+                            <a href=""></a>
+                        </div>
+                        <a href="https://anthos-restorant.000webhostapp.com/">
+                            <img src="./images/proyecto3.jpg" alt="">
+                        </a>
+                    </div>
+                    <!-- <div class="card">
+                        <div class="overlay">
+                            <span></span>
+                            <a href="#"></a>
+                        </div>
+                        <a href="">
+                            <img src="./images/" alt="">
+                        </a>
+                    </div> -->
+                    <!-- <div class="card">
+                        <div class="overlay">
+                            <span></span>
+                            <a href="#"></a>
+                        </div>
+                        <a href="https://coolgames.ayphu.cloud/">
+                            <img src="./images/proyecto4.png" alt="">
+                        </a>
+                    </div> -->
+                    <!-- <div class="card">
+                        <div class="overlay">
+                            <span></span>
+                            <a href="#"></a>
+                        </div>
+                        <img src="./images/" alt="">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- MI BLOG -->
+        <section id="blog" class="blog">
+            <div class="container">
+                <h1 class="section-heading"><span>Mi</span> Blog</h1>
+                <p>Por si quieres conocer un poco mas de mi en el mundo de la programacion</p>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/fondo-blog.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Descubriendo mi primer lenguaje</h1>
+                            </a>
+                            <span>Octubre 07, 2023</span>
+                            <p>Buenas, soy Anthony y este es el inicio de mi blog en internet, solo dire que aqui no voy a 
+                                escribir cosas de mi vida personal, solo contare mi experiencia en el mundo de la programacion, 
+                                mi primer sistema creado, mi primera pagina web y mi idea para mi tesis. 
+                                Vamos a comenzar.
+                            </p>
+                            <a href="https://anthony-developer-web.blogspot.com/2023/10/bienvenidos-mi-blog.html">Leer mas</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/fondo-blog.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="">
+                                <h1>Mi primer ciclo</h1>
+                            </a>
+                            <span>Octubre 8, 2023</span>
+                            <p>El 15 de marzo del 2022 inicio mi primer ciclo, las primeras dos semanas fuero solo cursos 
+                                generales, comunicacion efectiva, matematicas y todo eso, a pesar de no ser cursos que no 
+                                tiene nada que ver con la programacion me esforze muchisimo en esos cursos.</p>
+                            <a href="https://anthony-developer-web.blogspot.com/2023/10/mi-primer-ciclo.html">Leer mas</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/fondo-blog.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Mi primer ciclo - parte 2</h1>
+                            </a>
+                            <span>May 12, 2017</span>
+                            <p>Bueno como el titulo lo indica, contare mas de mi primer ciclo.En este punto ya me sabia de 
+                                memoria todo lo que habiamos aprendido en clase de programacion, que si recuerdan son las 
+                                clases del profesor Dennis y Cesar, repasaba y repasaba el cuaderno para poder,</p>
+                            <a href="https://anthony-developer-web.blogspot.com/2023/10/primer-ciclo-parte-2.html">Leer mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTAME -->
+        <section class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contactate <span>Conmigo</span></h1>
+                <p>Proporciono un sitio web de alto nivel para sus soluciones comerciales</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/msg.svg" alt="">
+                        <h1>Lamame</h1>
+                        <h6>+51 923063096</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/msg.svg" alt="">
+                        <h1>Enviame un correo</h1>
+                        <h6>anthonymontoya1678@gmail.com</h6>
+                    </div>
+                </div>
+
+                <form action="https://formsubmit.co/anthonymontoya1678@gmail.com" method="POST">
+                    <div class="input-wrap">
+                        <input type="text" name="Nombre" placeholder="Nombres y Apellidos">
+                        <input type="email" name="Correo" placeholder="Correo">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" name="Asunto" placeholder="Tu asunto">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <input type="text" name="mensaje">
+                        <button class="btn btn-primary">Enviar Mensaje</button>
+                        <a href="https://api.whatsapp.com/send?phone=923063096" class="btn btn-wssp">Escribeme</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- PIE DE PAGINA -->
+        <footer>
+            <div class="footer-socials"></div>
+            <div class="copyright">
+                Copyright 2023 © anthony-developer
+            </div>
+        </footer>
+        
+    </main>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>asSa
+</html>
